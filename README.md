@@ -176,10 +176,6 @@ USERS_COVER | config.json中内容
 
 [钉钉自定义机器人使用方式](https://developers.dingtalk.com/document/app/custom-robot-access)，注意安全设置部分，选择自定义关键词，填写`UnicomTask`。
 
-## 3.TgBot机器人
-
-类似于钉钉机器人，只需要一个`token`和`userId`，自行搜索这两个参数的获取方式。
-
 ## 4.pushplus机器人
 
 类似于钉钉机器人，只需要一个`token`，参考[获取pushplus的token](http://www.pushplus.plus/login?redirectUrl=/message)。注意，升级到了新接口，要重新申请`token`。详情见：[更新推送加推送接口](https://github.com/srcrs/UnicomTask/issues/134)
